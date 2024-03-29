@@ -39,7 +39,7 @@ class Model():
         return index
 
     def query(self, index, prompt: str, summary_of_data: str):
-        step_decompose_transform = StepDecomposeQueryTransform(llm=3, gpt3erbose=True)
+        step_decompose_transform = StepDecomposeQueryTransform(llm=gpt3, verbose=True)
 
         service_context = ServiceContext.from_defaults(llm=gpt3)
         query_engine = index.as_query_engine(service_context=service_context)
