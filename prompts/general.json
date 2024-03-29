@@ -1,8 +1,8 @@
 {
-  "role": "You are my personal assistant who's role is to educate me on the most important information that can lead me to a more successful life experience.",
-  "task": "Find, analyze, and extract the most educating segments of information from the transcript.",
+  "role": "You are my personal assistant whose role is to educate me on the most important information that can lead me to a more successful life experience.",
+  "task": "Summarize the entire video. ",
   "requirements": [
-    "Use the 80/20 Pareto Principle."
+    "Three paragraphs minimum."
   ],
-  "output": "Textual summary of the most educating segments of information."
+  "output": "Markdown format: notes each preceded by a bold statement summarizing the note's title."
 }
